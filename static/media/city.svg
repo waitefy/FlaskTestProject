@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">City night</title>
+  <desc id="desc">A simple night city skyline with lit windows.</desc>
+  <defs>
+    <linearGradient id="night" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#171a46"/>
+      <stop offset="1" stop-color="#0a1028"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#night)"/>
+  <circle cx="650" cy="118" r="64" fill="#f8e7a3"/>
+  <circle cx="628" cy="94" r="64" fill="#171a46"/>
+  <g fill="#27345d">
+    <rect x="60" y="292" width="96" height="308" rx="8"/>
+    <rect x="186" y="220" width="132" height="380" rx="8"/>
+    <rect x="348" y="318" width="104" height="282" rx="8"/>
+    <rect x="484" y="250" width="146" height="350" rx="8"/>
+    <rect x="662" y="338" width="82" height="262" rx="8"/>
+  </g>
+  <g fill="#ffd166">
+    <rect x="91" y="332" width="18" height="34" rx="3"/>
+    <rect x="122" y="392" width="18" height="34" rx="3"/>
+    <rect x="224" y="264" width="20" height="36" rx="3"/>
+    <rect x="268" y="334" width="20" height="36" rx="3"/>
+    <rect x="388" y="366" width="18" height="32" rx="3"/>
+    <rect x="522" y="294" width="20" height="36" rx="3"/>
+    <rect x="574" y="380" width="20" height="36" rx="3"/>
+    <rect x="694" y="382" width="18" height="32" rx="3"/>
+  </g>
+  <path d="M0 524h800v76H0z" fill="#070b18" opacity="0.78"/>
+</svg>

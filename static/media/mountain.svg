@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Mountain sunrise</title>
+  <desc id="desc">A warm sunrise over layered mountain shapes.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffb36b"/>
+      <stop offset="0.52" stop-color="#f9dd9c"/>
+      <stop offset="1" stop-color="#7cc7d9"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#sky)"/>
+  <circle cx="402" cy="226" r="92" fill="#fff1b8" opacity="0.96"/>
+  <path d="M0 380 150 205 278 350 382 245 540 392 660 272 800 382v218H0z" fill="#37496a"/>
+  <path d="M0 450 180 296 318 426 458 318 610 454 800 336v264H0z" fill="#24314e"/>
+  <path d="M0 514c138-48 256-62 360-42 125 25 263 20 440-44v172H0z" fill="#152039" opacity="0.92"/>
+</svg>
